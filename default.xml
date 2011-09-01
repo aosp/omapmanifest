@@ -208,7 +208,7 @@
   <project path="device/ti/support-tools" name="repo/support-tools"
            revision="refs/heads/master" />
   <project path="hardware/ti/omx" name="platform/hardware/ti/omx"
-           revision="master" />
+           revision="gingerbread" />
   <project path="external/libexif" name="platform/external/libexif" />
 
 <!-- syslink & tiler stuff -->
