@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="korg"
-           fetch="git://android.git.kernel.org/"
-           review="review.source.android.com" />
+  <remote  name="aosp"
+           fetch=".." />
   <remote  name="omap-mirror"
            fetch="git://git.omapzoom.org/"
            review="review.omapzoom.org" />
 
   <default revision="p-gingerbread"
-           remote="omap-mirror" />
+           remote="omap-mirror" 
+           sync-j="2" />
 
   <project path="build" name="platform/build">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -122,7 +122,9 @@
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
   <project path="hardware/ril" name="platform/hardware/ril" />
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="gingerbread" />
+<!--
+  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
+-->
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
@@ -195,6 +197,7 @@
            revision="gingerbread" >
     <copyfile src="README.kernel" dest="README.kernel" />
   </project>
+  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="gingerbread" />
 
   <project path="device/ti/zoom2" name="device/ti/zoom2"
            revision="gingerbread" />
