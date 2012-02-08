@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="aosp"
-           fetch=".." />
   <remote  name="omap-mirror"
-           fetch="git://git.omapzoom.org/"
+           fetch=".."
            review="review.omapzoom.org" />
   <default revision="p-master"
            remote="omap-mirror"
-           sync-j="4" />
+           sync-j="2" />
 
   <project path="build" name="platform/build">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -130,6 +128,7 @@
   <project path="external/qemu" name="platform/external/qemu" />
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" />
   <project path="external/quake" name="platform/external/quake" />
+  <project path="external/replicaisland" name="platform/external/replicaisland" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/skia" name="platform/external/skia" />
   <project path="external/sonivox" name="platform/external/sonivox" />
@@ -290,11 +289,11 @@
            revision="donut" />
   <project path="hardware/idcc/6071-ril"
            name="platform/hardware/idcc/6071-ril" />
--->
 
   <project path="external/alsa-lib" name="platform/external/alsa-lib" />
   <project path="external/alsa-utils" name="platform/external/alsa-utils" />
   <project path="hardware/alsa_sound" name="platform/hardware/alsa_sound" />
+-->
 
 </manifest>
 
