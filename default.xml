@@ -252,6 +252,17 @@
 -->
 
 
+<!-- OMAP3 related trees -->
+  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="ics-mr1" />
+  <project path="device/ti/zoom2" name="device/ti/zoom2"
+           revision="ics-mr1" />
+<!-- OMAP3 related trees - removed for now
+  <project path="hardware/ti/tiler" name="platform/hardware/ti/tiler"
+           revision="memmgr_1.0" />
+  <project path="hardware/ti/syslink" name="platform/hardware/ti/syslink"
+           revision="syslink-2.0-m1" />
+-->
+
 <!-- OMAP4 related trees -->
   <project path="device/ti/blaze" name="device/ti/blaze"
            revision="ics-mr1" />
@@ -261,6 +272,10 @@
            revision="ics-mr1" />
   <project path="device/ti/proprietary-open" name="device/ti/proprietary-open"
            revision="ics-mr1" />
+
+<!-- OMAP5 related trees -->
+  <project path="device/ti/omap5sevm" name="device/ti/omap5sevm"
+          revision="ics-mr1" />
 
 <!-- Connectivity -->
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
@@ -276,16 +291,5 @@
 
 <!-- TI add on APPS -->
   <project path="packages/apps/OMAPCamera" name="platform/packages/apps/OMAPCamera" revision="ics" />
-
-<!-- OMAP3 related trees -->
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="ics-mr1" />
-  <project path="device/ti/zoom2" name="device/ti/zoom2"
-           revision="ics-mr1" />
-<!-- OMAP3 related trees - removed for now
-  <project path="hardware/ti/tiler" name="platform/hardware/ti/tiler"
-           revision="memmgr_1.0" />
-  <project path="hardware/ti/syslink" name="platform/hardware/ti/syslink"
-           revision="syslink-2.0-m1" />
--->
 
 </manifest>
