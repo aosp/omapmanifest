@@ -266,11 +266,11 @@
            revision="ics-mr1-release" />
   <project path="external/crda" name="platform/external/crda" />
 
-  <project name="repo/support-tools" path="device/ti/support-tools" revision="622edf25ffd1d53b499407291dc2eeaaf217494e"/>
-  <project name="platform/hardware/ti/domx" path="hardware/ti/domx" revision="6d14e85b4d2731199abfc7c61182db98d7d9597a"/>
-  <project path="external/bltsville" name="platform/external/bltsville" revision="cd4f2ff5f50a086202f0e4a7f51a40494026c6a0"/>
+  <project path="device/ti/support-tools" name="repo/support-tools" revision="master"/>
+  <project path="hardware/ti/domx" name="platform/hardware/ti/domx" revision="master"/>
+  <project path="external/bltsville" name="platform/external/bltsville" revision="master"/>
 <!-- TI add on APPS -->
-   <project name="platform/packages/apps/OMAPCamera" path="packages/apps/OMAPCamera" revision="c202e4ba6ef61da80bdd283f4bc11cde5b32206a"/>
+   <project path="packages/apps/OMAPCamera" name="platform/packages/apps/OMAPCamera" revision="ics"/>
 
 <!-- OMAP3 related trees -->
 <!-- OMAP3 related trees - removed for now
