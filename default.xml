@@ -283,6 +283,7 @@
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan"
            revision="ics-mr1" />
   <project path="external/crda" name="platform/external/crda" />
+  <project path="external/libnfc-ti" name="platform/external/libnfc-ti" />
 
   <project path="device/ti/support-tools" name="repo/support-tools"
            revision="master" />
