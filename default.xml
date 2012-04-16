@@ -285,7 +285,7 @@
   <project path="external/crda" name="platform/external/crda" />
   <project path="external/libnfc-ti" name="platform/external/libnfc-ti" />
 
-<! BlueTI trees -->
+<!-- BlueTI trees -->
   <project path="external/bluetooth/blueti" name="platform/external/bluetooth/blueti" revision="ics-mr1"/>
   <project path="external/bluetooth/readline" name="platform/external/bluetooth/readline" revision="ics-mr1"/>
   <project path="external/bluetooth/termcap" name="platform/external/bluetooth/termcap" revision="ics-mr1"/>
