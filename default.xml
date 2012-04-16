@@ -285,6 +285,12 @@
   <project path="external/crda" name="platform/external/crda" />
   <project path="external/libnfc-ti" name="platform/external/libnfc-ti" />
 
+<! BlueTI trees -->
+  <project path="external/bluetooth/blueti" name="platform/external/bluetooth/blueti" revision="ics-mr1"/>
+  <project path="external/bluetooth/readline" name="platform/external/bluetooth/readline" revision="ics-mr1"/>
+  <project path="external/bluetooth/termcap" name="platform/external/bluetooth/termcap" revision="ics-mr1"/>
+
+
   <project path="device/ti/support-tools" name="repo/support-tools"
            revision="master" />
   <project path="hardware/ti/domx" name="platform/hardware/ti/domx"
@@ -293,5 +299,6 @@
 
 <!-- TI add on APPS -->
   <project path="packages/apps/OMAPCamera" name="platform/packages/apps/OMAPCamera" revision="ics" />
+
 
 </manifest>
