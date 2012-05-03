@@ -286,9 +286,9 @@
   <project path="external/libnfc-ti" name="platform/external/libnfc-ti" />
 
 <!-- BlueTI trees -->
-  <project path="external/bluetooth/blueti" name="platform/external/bluetooth/blueti" revision="ics-mr1"/>
-  <project path="external/bluetooth/readline" name="platform/external/bluetooth/readline" revision="ics-mr1"/>
-  <project path="external/bluetooth/termcap" name="platform/external/bluetooth/termcap" revision="ics-mr1"/>
+  <project path="external/bluetooth/blueti" name="platform/external/bluetooth/blueti" />
+  <project path="external/bluetooth/readline" name="platform/external/bluetooth/readline" />
+  <project path="external/bluetooth/termcap" name="platform/external/bluetooth/termcap" />
 
 
   <project path="device/ti/support-tools" name="repo/support-tools"
