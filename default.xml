@@ -275,10 +275,10 @@
    <project path="packages/apps/OMAPCamera" name="platform/packages/apps/OMAPCamera" revision="ics"/>
 
 <!-- OMAP3 related trees -->
-<!-- OMAP3 related trees - removed for now
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="ics-mr1-release" />
   <project path="device/ti/zoom2" name="device/ti/zoom2"
            revision="ics-mr1-release" />
+<!-- OMAP3 related trees - removed for now
   <project path="hardware/ti/tiler" name="platform/hardware/ti/tiler"
            revision="memmgr_1.0" />
   <project path="hardware/ti/syslink" name="platform/hardware/ti/syslink"
