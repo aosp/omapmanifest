@@ -274,7 +274,7 @@
   <project path="bootable/bootloader/x-loader" name="repo/x-loader"
            revision="refs/heads/master" />
 
-  <project path="device/ti/common-open" name="platform/vendor/ti/common-open"
+  <project path="device/ti/common-open" name="device/ti/common-open"
            revision="master" >
     <copyfile src="README.kernel" dest="README.kernel" />
   </project>
