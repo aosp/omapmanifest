@@ -272,7 +272,7 @@
   <project path="hardware/ti/domx" name="platform/hardware/ti/domx" revision="master"/>
   <project path="external/bltsville" name="platform/external/bltsville" revision="master"/>
 <!-- TI add on APPS -->
-   <project path="packages/apps/OMAPCamera" name="platform/packages/apps/OMAPCamera" revision="ics"/>
+   <project path="packages/apps/OMAPCamera" name="platform/packages/apps/OMAPCamera" revision="ics-release"/>
 
 <!-- OMAP3 related trees -->
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="ics-mr1-release" />
