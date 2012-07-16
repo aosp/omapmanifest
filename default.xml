@@ -308,6 +308,8 @@
 <!-- TI specific addons -->
   <project path="device/ti/blaze_tablet" name="device/ti/blaze_tablet"
            revision="jb-release" />
+  <project path="device/ti/blaze" name="device/ti/blaze"
+           revision="jb-release" />
   <project path="device/ti/omap5sevm" name="device/ti/omap5sevm"
            revision="jb-release" />
   <project path="device/ti/proprietary-open" name="device/ti/proprietary-open"
