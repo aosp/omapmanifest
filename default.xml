@@ -306,6 +306,8 @@
   <project path="system/vold" name="platform/system/vold" />
 
 <!-- TI specific addons -->
+  <project path="external/bltsville" name="platform/external/bltsville"
+           revision="master"/>
   <project path="external/crda" name="platform/external/crda" />
   <project path="device/ti/blaze_tablet" name="device/ti/blaze_tablet"
            revision="jb-release" />
