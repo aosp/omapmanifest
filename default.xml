@@ -319,4 +319,6 @@
            revision="jb-release" />
   <project path="device/ti/common-open" name="device/ti/common-open"
            revision="jb-release" />
+  <project path="packages/apps/OMAPCamera" name="platform/packages/apps/OMAPCamera"
+           revision="jb-release" />
 </manifest>
