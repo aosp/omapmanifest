@@ -174,9 +174,7 @@
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
   <project path="hardware/ril" name="platform/hardware/ril" />
-<!--
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
--->
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
   <project path="libcore" name="platform/libcore-snapshot" />
   <project path="ndk" name="platform/ndk" />
@@ -254,7 +252,6 @@
 
 
 <!-- OMAP3 related trees -->
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="ics-mr1" />
   <project path="device/ti/zoom2" name="device/ti/zoom2"
            revision="ics-mr1" />
 <!-- OMAP3 related trees - removed for now
