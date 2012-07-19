@@ -123,9 +123,7 @@
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
   <project path="hardware/ril" name="platform/hardware/ril" />
-<!--
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
--->
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="libcore" name="platform/libcore-snapshot" />
   <project path="ndk" name="platform/ndk" />
@@ -198,7 +196,6 @@
            revision="gingerbread" >
     <copyfile src="README.kernel" dest="README.kernel" />
   </project>
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="gingerbread" />
 
   <project path="device/ti/zoom2" name="device/ti/zoom2"
            revision="gingerbread" />
