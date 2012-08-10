@@ -4,7 +4,7 @@
   <remote  name="omap-mirror"
            fetch=".."
            review="http://review.omapzoom.org/" />
-  <default revision="p-jb-release"
+  <default revision="d-jb-release"
            remote="omap-mirror"
            sync-j="2" />
 
@@ -313,32 +313,29 @@
   <project path="external/crda" name="platform/external/crda" >
            <annotation name="vendor" value="ti" />
   </project>
-  <project path="device/ti/blaze_tablet" name="device/ti/blaze_tablet"
-           revision="jb-release" >
+  <project path="device/ti/blaze_tablet" name="device/ti/blaze_tablet" >
            <annotation name="vendor" value="ti" />
   </project>
-  <project path="device/ti/blaze" name="device/ti/blaze"
-           revision="jb-release" >
+  <project path="device/ti/blaze" name="device/ti/blaze" >
            <annotation name="vendor" value="ti" />
   </project>
-  <project path="device/ti/omap5sevm" name="device/ti/omap5sevm"
-           revision="jb-release" >
+  <project path="device/ti/omap5sevm" name="device/ti/omap5sevm" >
            <annotation name="vendor" value="ti" />
   </project>
   <project path="device/ti/proprietary-open" name="device/ti/proprietary-open"
-           revision="jb-release" >
+           revision="d-jb-release" >
            <annotation name="vendor" value="ti" />
   </project>
   <project path="hardware/ti/domx" name="platform/hardware/ti/domx"
-           revision="jb-release" >
+           revision="d-jb-release" >
            <annotation name="vendor" value="ti" />
   </project>
   <project path="device/ti/common-open" name="device/ti/common-open"
-           revision="jb-release" >
+           revision="d-jb-release" >
            <annotation name="vendor" value="ti" />
   </project>
   <project path="packages/apps/OMAPCamera" name="platform/packages/apps/OMAPCamera"
-           revision="jb-release" >
+           revision="d-jb-release" >
            <annotation name="vendor" value="ti" />
   </project>
 </manifest>
