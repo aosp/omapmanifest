@@ -307,20 +307,38 @@
 
 <!-- TI specific addons -->
   <project path="external/bltsville" name="platform/external/bltsville"
-           revision="master"/>
-  <project path="external/crda" name="platform/external/crda" />
+           revision="master">
+           <annotation name="vendor" value="ti" />
+  </project>
+  <project path="external/crda" name="platform/external/crda" >
+           <annotation name="vendor" value="ti" />
+  </project>
   <project path="device/ti/blaze_tablet" name="device/ti/blaze_tablet"
-           revision="jb-release" />
+           revision="jb-release" >
+           <annotation name="vendor" value="ti" />
+  </project>
   <project path="device/ti/blaze" name="device/ti/blaze"
-           revision="jb-release" />
+           revision="jb-release" >
+           <annotation name="vendor" value="ti" />
+  </project>
   <project path="device/ti/omap5sevm" name="device/ti/omap5sevm"
-           revision="jb-release" />
+           revision="jb-release" >
+           <annotation name="vendor" value="ti" />
+  </project>
   <project path="device/ti/proprietary-open" name="device/ti/proprietary-open"
-           revision="jb-release" />
+           revision="jb-release" >
+           <annotation name="vendor" value="ti" />
+  </project>
   <project path="hardware/ti/domx" name="platform/hardware/ti/domx"
-           revision="jb-release" />
+           revision="jb-release" >
+           <annotation name="vendor" value="ti" />
+  </project>
   <project path="device/ti/common-open" name="device/ti/common-open"
-           revision="jb-release" />
+           revision="jb-release" >
+           <annotation name="vendor" value="ti" />
+  </project>
   <project path="packages/apps/OMAPCamera" name="platform/packages/apps/OMAPCamera"
-           revision="jb-release" />
+           revision="jb-release" >
+           <annotation name="vendor" value="ti" />
+  </project>
 </manifest>
