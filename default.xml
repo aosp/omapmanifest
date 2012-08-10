@@ -337,8 +337,15 @@
            revision="jb-release" >
            <annotation name="vendor" value="ti" />
   </project>
-  <project path="packages/apps/OMAPCamera" name="platform/packages/apps/OMAPCamera"
+  <project path="packages/apps/OMAPCamera"
+           name="platform/packages/apps/OMAPCamera"
            revision="jb-release" >
            <annotation name="vendor" value="ti" />
   </project>
+  <project path="external/wpa_supplicant_8_ti"
+           name="platform/external/wpa_supplicant_8_ti"
+           revision="jb-release" >
+           <annotation name="vendor" value="ti" />
+  </project>
+
 </manifest>
