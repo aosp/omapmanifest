@@ -310,9 +310,7 @@
            revision="master">
            <annotation name="vendor" value="ti" />
   </project>
-  <project path="external/crda" name="platform/external/crda" >
-           <annotation name="vendor" value="ti" />
-  </project>
+  <project path="external/crda" name="platform/external/crda" />
   <project path="device/ti/blaze_tablet" name="device/ti/blaze_tablet" >
            <annotation name="vendor" value="ti" />
   </project>
