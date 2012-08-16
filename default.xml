@@ -325,6 +325,10 @@
            revision="jb-release" >
            <annotation name="vendor" value="ti" />
   </project>
+  <project path="device/ti/panda5" name="device/ti/panda5"
+           revision="jb-release" >
+           <annotation name="vendor" value="ti" />
+  </project>
   <project path="device/ti/proprietary-open" name="device/ti/proprietary-open"
            revision="jb-release" >
            <annotation name="vendor" value="ti" />
