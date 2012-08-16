@@ -320,6 +320,10 @@
   <project path="device/ti/omap5sevm" name="device/ti/omap5sevm" >
            <annotation name="vendor" value="ti" />
   </project>
+  <project path="device/ti/panda5" name="device/ti/panda5"
+           revision="jb-release" >
+           <annotation name="vendor" value="ti" />
+  </project>
   <project path="device/ti/proprietary-open" name="device/ti/proprietary-open"
            revision="d-jb-release" >
            <annotation name="vendor" value="ti" />
