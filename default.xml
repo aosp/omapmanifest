@@ -329,7 +329,7 @@
            <annotation name="vendor" value="ti" />
   </project>
   <project path="hardware/ti/domx" name="platform/hardware/ti/domx"
-           revision="d-jb-release" >
+           revision="master" >
            <annotation name="vendor" value="ti" />
   </project>
   <project path="device/ti/common-open" name="device/ti/common-open"
