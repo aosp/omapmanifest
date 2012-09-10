@@ -342,4 +342,10 @@
            <annotation name="vendor" value="ti" />
   </project>
 
+  <project path="external/libnfc-ti"
+           name="platform/external/libnfc-ti"
+           revision="d-jb-release" >
+           <annotation name="vendor" value="ti" />
+  </project>
+
 </manifest>
