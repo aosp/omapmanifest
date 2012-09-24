@@ -345,4 +345,9 @@
   <project path="external/libnfc-ti"
            name="platform/external/libnfc-ti" />
 
+  <!-- BlueTI projects for bluetooth -->
+  <project path="external/bluetooth/blueti" name="platform/external/bluetooth/blueti" />
+  <project path="external/bluetooth/readline" name="platform/external/bluetooth/readline" />
+  <project path="external/bluetooth/termcap" name="platform/external/bluetooth/termcap" />
+
 </manifest>
