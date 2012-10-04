@@ -337,6 +337,14 @@
            revision="master" >
            <annotation name="vendor" value="ti" />
   </project>
+  <project path="hardware/ti/dvp" name="platform/hardware/ti/dvp"
+           revision="master" >
+           <annotation name="vendor" value="ti" />
+  </project>
+  <project path="hardware/ti/arx" name="platform/hardware/ti/arx"
+           revision="master" >
+           <annotation name="vendor" value="ti" />
+  </project>
   <project path="device/ti/common-open" name="device/ti/common-open"
            revision="jb-release" >
            <annotation name="vendor" value="ti" />
