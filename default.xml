@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aosp"
-           fetch=".." />
-  <default revision="refs/tags/android-4.1.2_r1"
-           remote="aosp"
-           sync-j="4" />
+  <remote  name="omap-mirror"
+           fetch=".."
+           review="http://review.omapzoom.org/" />
+  <default revision="p-jb-mr0-release"
+           remote="omap-mirror"
+           sync-j="2" />
 
   <project path="build" name="platform/build" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -302,5 +303,63 @@
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="platform/system/vold" />
+
+<!-- TI specific addons -->
+  <project path="external/bltsville" name="platform/external/bltsville"
+           revision="master">
+           <annotation name="vendor" value="ti" />
+  </project>
+  <project path="external/crda" name="platform/external/crda" >
+           <annotation name="vendor" value="ti" />
+  </project>
+  <project path="device/ti/blaze_tablet" name="device/ti/blaze_tablet"
+           revision="jb-mr0-release" >
+           <annotation name="vendor" value="ti" />
+  </project>
+  <project path="device/ti/blaze" name="device/ti/blaze"
+           revision="jb-mr0-release" >
+           <annotation name="vendor" value="ti" />
+  </project>
+  <project path="device/ti/omap5sevm" name="device/ti/omap5sevm"
+           revision="jb-mr0-release" >
+           <annotation name="vendor" value="ti" />
+  </project>
+  <project path="device/ti/panda5" name="device/ti/panda5"
+           revision="jb-mr0-release" >
+           <annotation name="vendor" value="ti" />
+  </project>
+  <project path="device/ti/proprietary-open" name="device/ti/proprietary-open"
+           revision="jb-mr0-release" >
+           <annotation name="vendor" value="ti" />
+  </project>
+  <project path="hardware/ti/domx" name="platform/hardware/ti/domx"
+           revision="master" >
+           <annotation name="vendor" value="ti" />
+  </project>
+  <project path="hardware/ti/dvp" name="platform/hardware/ti/dvp"
+           revision="master" >
+           <annotation name="vendor" value="ti" />
+  </project>
+  <project path="hardware/ti/arx" name="platform/hardware/ti/arx"
+           revision="master" >
+           <annotation name="vendor" value="ti" />
+  </project>
+  <project path="device/ti/common-open" name="device/ti/common-open"
+           revision="jb-mr0-release" >
+           <annotation name="vendor" value="ti" />
+  </project>
+  <project path="packages/apps/OMAPCamera"
+           name="platform/packages/apps/OMAPCamera"
+           revision="jb-mr0-release" >
+           <annotation name="vendor" value="ti" />
+  </project>
+  <project path="external/wpa_supplicant_8_ti"
+           name="platform/external/wpa_supplicant_8_ti"
+           revision="jb-mr0-release" >
+           <annotation name="vendor" value="ti" />
+  </project>
+
+  <project path="external/libnfc-ti"
+           name="platform/external/libnfc-ti" />
 
 </manifest>
