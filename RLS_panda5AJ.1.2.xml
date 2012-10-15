@@ -207,7 +207,7 @@
   <project groups="default" name="platform/external/yaffs2" path="external/yaffs2" revision="64a7dfb5cd56d758a74a4f98e29724e84a276acc"/>
   <project groups="default" name="platform/external/zlib" path="external/zlib" revision="7b332dbcb6a69c1919decb488c28d9b1fc5ba141"/>
   <project groups="default" name="platform/external/zxing" path="external/zxing" revision="7620644768ffc235607b3a94671e49518c18686f"/>
-  <project groups="default" name="platform/frameworks/av" path="frameworks/av" revision="88d9dab49935b5561507c1e969bab5aa9ffeb78c"/>
+  <project groups="default" name="platform/frameworks/av" path="frameworks/av" revision="42c778ee87944185f6f1892bd89c120983c401db"/>
   <project groups="default" name="platform/frameworks/base" path="frameworks/base" revision="64aa8e0cef8f4930ba84b7cc16afaa5021c6c509"/>
   <project groups="default" name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="353bf4498661226b349133653cbdd7726616663f"/>
   <project groups="default" name="platform/frameworks/compile/linkloader" path="frameworks/compile/linkloader" revision="9f02779af9fc6f8de19f3feb71e1ad01ebf517f6"/>
@@ -235,19 +235,19 @@
   <project groups="default" name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="7573253c2637e026e0943620d62ec335e5a9dc10"/>
   <project groups="default" name="platform/hardware/qcom/media" path="hardware/qcom/media" revision="3d528deb37f16eab7d699ec8e7f60d34141a6316"/>
   <project groups="default" name="platform/hardware/ril" path="hardware/ril" revision="5b16efdeca04c524df241af9315c8ec3bf774491"/>
-  <project groups="default" name="platform/hardware/ti/arx" path="hardware/ti/arx" revision="639c3ebdd582970d40f5ba987bb962e8d30f632f">
+  <project groups="default" name="platform/hardware/ti/arx" path="hardware/ti/arx" revision="115d1f92d8bb0e87c834a6e351e4e7f2687f21cf">
     <annotation name="vendor" value="ti"/>
   </project>
-  <project groups="default" name="platform/hardware/ti/domx" path="hardware/ti/domx" revision="8cd928b92653d53de1834e87f3f8d6e0b35aad19">
+  <project groups="default" name="platform/hardware/ti/domx" path="hardware/ti/domx" revision="94a9c5f24f52087c44392eb651c31817392cbb29">
     <annotation name="vendor" value="ti"/>
   </project>
-  <project groups="default" name="platform/hardware/ti/dvp" path="hardware/ti/dvp" revision="f60a1921642ae230d07712121dd9fa56e89009f4">
+  <project groups="default" name="platform/hardware/ti/dvp" path="hardware/ti/dvp" revision="7c9a178ea6ccbcd5aed513dba9f398326664b9f0">
     <annotation name="vendor" value="ti"/>
   </project>
   <project groups="default" name="platform/hardware/ti/omap3" path="hardware/ti/omap3" revision="efbb6b2de5fa16ef72bbf02526e3c0a7a6d63a4f"/>
-  <project groups="default" name="platform/hardware/ti/omap4xxx" path="hardware/ti/omap4xxx" revision="1c334252f3343f5b299c015141ed3c0a75476add"/>
+  <project groups="default" name="platform/hardware/ti/omap4xxx" path="hardware/ti/omap4xxx" revision="75a4bc82a12baa36867992d99fa709d12a536eb5"/>
   <project groups="default" name="platform/hardware/ti/wlan" path="hardware/ti/wlan" revision="3c820916c6d72cc3c7b4005f9415445f7eafcbf5"/>
-  <project groups="default" name="platform/hardware/ti/wpan" path="hardware/ti/wpan" revision="f52288b44f03aedaf5103fbed50681969942750d"/>
+  <project groups="default" name="platform/hardware/ti/wpan" path="hardware/ti/wpan" revision="5fcdad1cb95590cd2f1a6f0ab77f67c7adf5fc2a"/>
   <project groups="default" name="platform/libcore" path="libcore" revision="a173479a61fa1b6363a893b53672369533188eb3"/>
   <project groups="default" name="platform/libnativehelper" path="libnativehelper" revision="73d3c2e3ed100f1d0ccc08a9675844bf8a0848fa"/>
   <project groups="default" name="platform/ndk" path="ndk" revision="4e4734233ef625509d1fd23542a7a7e646caa38c"/>
