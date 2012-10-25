@@ -322,6 +322,10 @@
   <project path="device/ti/panda5" name="device/ti/panda5" >
            <annotation name="vendor" value="ti" />
   </project>
+  <project path="device/google/steelhead" name="device/google/steelhead"
+           revision="master">
+           <annotation name="vendor" value="ti" />
+  </project>
   <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" >
            <annotation name="vendor" value="ti" />
   </project>
