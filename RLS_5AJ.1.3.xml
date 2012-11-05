@@ -241,11 +241,11 @@
   <project name="platform/hardware/ti/domx" path="hardware/ti/domx" revision="379d7d6e88aa7488abd255052daa0c8a58a494d5" upstream="master">
     <annotation name="vendor" value="ti"/>
   </project>
-  <project name="platform/hardware/ti/dvp" path="hardware/ti/dvp" revision="05283e4575479a6c437a3094e00c6f4c04284e00" upstream="master">
+  <project name="platform/hardware/ti/dvp" path="hardware/ti/dvp" revision="ef10dec5b4983054608ae9d0475465a60ca4727e" upstream="master">
     <annotation name="vendor" value="ti"/>
   </project>
   <project name="platform/hardware/ti/omap3" path="hardware/ti/omap3" revision="efbb6b2de5fa16ef72bbf02526e3c0a7a6d63a4f" upstream="d-jb-release"/>
-  <project name="platform/hardware/ti/omap4xxx" path="hardware/ti/omap4xxx" revision="6520993a1f2c3f4c2c73f79a6949c4ef565cf74c" upstream="d-jb-release"/>
+  <project name="platform/hardware/ti/omap4xxx" path="hardware/ti/omap4xxx" revision="35133ab0c472c702d09a88134860c569063bdfa1" upstream="d-jb-release"/>
   <project name="platform/hardware/ti/wlan" path="hardware/ti/wlan" revision="726cf61010e3a75d5ce2ded1d2986fc113a59f9c" upstream="d-jb-release"/>
   <project name="platform/hardware/ti/wpan" path="hardware/ti/wpan" revision="f5eb40b40367e5569eca9b6522bc8b981a0ee6c4" upstream="d-jb-release"/>
   <project name="platform/libcore" path="libcore" revision="a173479a61fa1b6363a893b53672369533188eb3" upstream="d-jb-release"/>
@@ -272,7 +272,7 @@
   <project name="platform/packages/apps/Mms" path="packages/apps/Mms" revision="ead27598737791a1ce1f1171c1ff9e99b380438f" upstream="d-jb-release"/>
   <project name="platform/packages/apps/Music" path="packages/apps/Music" revision="733a1dfcb1f71c026422a61532a412f302fd29c6" upstream="d-jb-release"/>
   <project name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX" revision="d9fc04055aed9130f02627a73414ee12865a473d" upstream="d-jb-release"/>
-  <project name="platform/packages/apps/Nfc" path="packages/apps/Nfc" revision="682fac254d18128bce033dc099ba56c585da8020" upstream="d-jb-release"/>
+  <project name="platform/packages/apps/Nfc" path="packages/apps/Nfc" revision="b94cd00fd0cd88c747fe9f3cf83b20c37e92e819" upstream="d-jb-release"/>
   <project name="platform/packages/apps/OMAPCamera" path="packages/apps/OMAPCamera" revision="ed1de6b12717b8df2f234e385c6161d55c8600d4" upstream="d-jb-release">
     <annotation name="vendor" value="ti"/>
   </project>
