@@ -356,6 +356,7 @@
            revision="master" >
            <annotation name="vendor" value="ti" />
   </project>
+-->
   <project path="external/bltsville" name="platform/external/bltsville"
            revision="master">
            <annotation name="vendor" value="ti" />
@@ -369,10 +370,12 @@
            revision="master" >
            <annotation name="vendor" value="ti" />
   </project>
+<!--
   <project path="packages/apps/OMAPCamera"
            name="platform/packages/apps/OMAPCamera" >
            <annotation name="vendor" value="ti" />
   </project>
+-->
   <project path="external/wpa_supplicant_8_ti"
            name="platform/external/wpa_supplicant_8_ti" >
            <annotation name="vendor" value="ti" />
@@ -380,7 +383,6 @@
 
   <project path="external/libnfc-ti"
            name="platform/external/libnfc-ti" />
--->
 
   <!-- BlueTI projects for bluetooth -->
 <!--
