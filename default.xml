@@ -3,7 +3,7 @@
 
   <remote  name="omap-mirror"
            fetch=".."
-           review="http://review.omapzoom.org/" />
+           review="http://git.omapzoom.org/" />
   <default revision="d-jb-mr1-release"
            remote="omap-mirror"
            sync-j="2" />
@@ -30,6 +30,8 @@
   <project path="device/generic/x86" name="device/generic/x86" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
+  <project path="device/lge/mako" name="device/lge/mako" groups="device" />
+  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" groups="device" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device" />
@@ -224,6 +226,18 @@
   <project path="hardware/invensense" name="platform/hardware/invensense" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
+  <project path="hardware/msm7k" name="platform/hardware/msm7k" />
+  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" />
+  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" />
+  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" />
+  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" />
+  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
+  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" />
+  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
+  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" />
+  <project path="hardware/qcom/power" name="platform/hardware/qcom/power" />
+  <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
+  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" />
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
@@ -299,8 +313,6 @@
   <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="linux" />
   <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="linux" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" />
-  <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" />
-  <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" groups="notdefault,eclipse" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" groups="darwin,arm" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" groups="darwin,arm" />
   <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" groups="darwin,mips" />
@@ -329,66 +341,17 @@
   <project path="tools/motodev" name="platform/tools/motodev" />
 
 <!-- TI specific addons -->
-  <project path="device/ti/common-open" name="device/ti/common-open" >
-           <annotation name="vendor" value="ti" />
-  </project>
-  <project path="device/ti/blaze" name="device/ti/blaze" >
-           <annotation name="vendor" value="ti" />
-  </project>
-  <project path="device/ti/blaze_tablet" name="device/ti/blaze_tablet" >
-           <annotation name="vendor" value="ti" />
-  </project>
-  <project path="device/ti/omap5sevm" name="device/ti/omap5sevm" >
-           <annotation name="vendor" value="ti" />
-  </project>
-  <project path="device/ti/panda5" name="device/ti/panda5" >
-           <annotation name="vendor" value="ti" />
-  </project>
-  <project path="device/google/steelhead" name="device/google/steelhead"
-           revision="master">
-           <annotation name="vendor" value="ti" />
-  </project>
-  <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" >
-           <annotation name="vendor" value="ti" />
-  </project>
-<!--
-  <project path="hardware/ti/domx" name="platform/hardware/ti/domx"
-           revision="master" >
-           <annotation name="vendor" value="ti" />
-  </project>
--->
-  <project path="external/bltsville" name="platform/external/bltsville"
-           revision="master">
-           <annotation name="vendor" value="ti" />
-  </project>
+
+  <project path="external/wpa_supplicant_8_ti" name="platform/external/wpa_supplicant_8_ti" />
+  <project path="device/ti/blaze" name="device/ti/blaze" />
+  <project path="device/ti/blaze_tablet" name="device/ti/blaze_tablet" />
+  <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" />
+  <project path="hardware/ti/domx" name="platform/hardware/ti/domx" />
+  <project path="device/ti/common-open" name="device/ti/common-open" />
+  <project path="external/bltsville" name="platform/external/bltsville" revision="master" />
   <project path="external/crda" name="platform/external/crda" />
-  <project path="hardware/ti/dvp" name="platform/hardware/ti/dvp"
-           revision="master" >
-           <annotation name="vendor" value="ti" />
-  </project>
-  <project path="hardware/ti/arx" name="platform/hardware/ti/arx"
-           revision="master" >
-           <annotation name="vendor" value="ti" />
-  </project>
-<!--
-  <project path="packages/apps/OMAPCamera"
-           name="platform/packages/apps/OMAPCamera" >
-           <annotation name="vendor" value="ti" />
-  </project>
--->
-  <project path="external/wpa_supplicant_8_ti"
-           name="platform/external/wpa_supplicant_8_ti" >
-           <annotation name="vendor" value="ti" />
-  </project>
-
-  <project path="external/libnfc-ti"
-           name="platform/external/libnfc-ti" />
-
-  <!-- BlueTI projects for bluetooth -->
-<!--
-  <project path="external/bluetooth/blueti" name="platform/external/bluetooth/blueti" />
-  <project path="external/bluetooth/readline" name="platform/external/bluetooth/readline" />
-  <project path="external/bluetooth/termcap" name="platform/external/bluetooth/termcap" />
--->
+  <project path="device/ti/omap5sevm" name="device/ti/omap5sevm" />
+  <project path="device/ti/panda5" name="device/ti/panda5" />
+  <project path="external/libnfc-ti" name="platform/external/libnfc-ti" />
 
 </manifest>
