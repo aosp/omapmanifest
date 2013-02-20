@@ -355,5 +355,7 @@
   <project path="external/libnfc-ti" name="platform/external/libnfc-ti" />
   <project path="packages/apps/OMAPCamera" name="platform/packages/apps/OMAPCamera" />
   <project path="packages/apps/MultiDisplay" name="platform/packages/apps/MultiDisplay" />
+  <project path="packages/apps/WfdSinkService" name="platform/packages/apps/WfdSinkService" />
+  <project path="packages/apps/WfdSinkPlayer" name="platform/packages/apps/WfdSinkPlayer" />
 
 </manifest>
