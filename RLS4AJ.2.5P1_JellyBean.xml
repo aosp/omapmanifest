@@ -23,18 +23,18 @@
   <project groups="device" name="device/samsung/toro" revision="9418e54756a863da67b36f57cdd0cd42005dc536" upstream="p-jb-mr1-release"/>
   <project groups="device" name="device/samsung/toroplus" revision="4ea2e8d35246ae07e6f26614a53e5132841bd9ff" upstream="p-jb-mr1-release"/>
   <project groups="device" name="device/samsung/tuna" revision="214d003a47e7fe2962df667c5d65bce92a21a40e" upstream="p-jb-mr1-release"/>
-  <project name="device/ti/blaze" revision="c074a5453c2b7e9d97ae73f254c092eb9ba3d20d" upstream="p-jb-mr1-release"/>
-  <project name="device/ti/blaze_tablet" revision="18276a8d0ee880e91d911a8d25c5d3a056f38c47" upstream="p-jb-mr1-release"/>
+  <project name="device/ti/blaze" revision="5e3e60496c6c6dd02b9087791b2fd3549c94711f" upstream="p-jb-mr1-release"/>
+  <project name="device/ti/blaze_tablet" revision="cb2a5b70c66ccf31272413cb6554a97f74c6bc86" upstream="p-jb-mr1-release"/>
   <project name="device/ti/common-open" revision="e7dcaf0d0b9f3c41521adec5fb37b01524fe5419" upstream="p-jb-mr1-release"/>
   <project name="device/ti/omap5sevm" revision="85dcd8f3f509fd6b6bcf1835410a07bf5994fac1" upstream="p-jb-mr1-release"/>
   <project groups="device" name="device/ti/panda" revision="530beda34c2082a2e2866f5a673c004dcb15c992" upstream="p-jb-mr1-release"/>
-  <project name="device/ti/panda5" revision="da2c99051b505579257075723393f7f5beea5984" upstream="p-jb-mr1-release"/>
-  <project name="device/ti/proprietary-open" revision="b195e580f9b5cd2af39dd9d2492184750a6194a1" upstream="p-jb-mr1-release"/>
+  <project name="device/ti/panda5" revision="be0b5b29b729f2cd93507693c17799e8e129d4fd" upstream="p-jb-mr1-release"/>
+  <project name="device/ti/proprietary-open" revision="1bb96383dc80487ea739c653c80cef266c4fc50f" upstream="p-jb-mr1-release"/>
   <project name="platform/abi/cpp" path="abi/cpp" revision="eb789ea833d8d800662b67914d9c1785a58c2caa" upstream="p-jb-mr1-release"/>
   <project name="platform/bionic" path="bionic" revision="e30f6e13bb3ecb4659a740e17e6c0cb12451e71e" upstream="p-jb-mr1-release"/>
   <project name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy" revision="3c491d6efb8ff2534a6934702760a6273f197918" upstream="p-jb-mr1-release"/>
   <project name="platform/bootable/diskinstaller" path="bootable/diskinstaller" revision="60d078a5924284a452a8fe739247704f8b31c754" upstream="p-jb-mr1-release"/>
-  <project name="platform/bootable/recovery" path="bootable/recovery" revision="dd5d297cb27fbe9baa160f61652479b8049874c8" upstream="p-jb-mr1-release"/>
+  <project name="platform/bootable/recovery" path="bootable/recovery" revision="39557fb11a69f6c8fb9dc930032159ef108304c7" upstream="p-jb-mr1-release"/>
   <project name="platform/build" path="build" revision="fc7cbcbac4e95d93afff3533277467116852d9cd" upstream="p-jb-mr1-release">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
@@ -203,8 +203,8 @@
   <project name="platform/external/yaffs2" path="external/yaffs2" revision="9c64cac7542658f85417d651d8b9422e054d5e72" upstream="p-jb-mr1-release"/>
   <project name="platform/external/zlib" path="external/zlib" revision="2d5094f0ebcb01fb9f11952d776945b090d89cf0" upstream="p-jb-mr1-release"/>
   <project name="platform/external/zxing" path="external/zxing" revision="7620644768ffc235607b3a94671e49518c18686f" upstream="p-jb-mr1-release"/>
-  <project name="platform/frameworks/av" path="frameworks/av" revision="d0b701958b0240175c32acd6da806539bc2e0010" upstream="p-jb-mr1-release"/>
-  <project name="platform/frameworks/base" path="frameworks/base" revision="c2fa6959b1a4678361c58c1b1a91e1b84f0f2704" upstream="p-jb-mr1-release"/>
+  <project name="platform/frameworks/av" path="frameworks/av" revision="8d877889880f84c67cd95e839365f96b2e941f4a" upstream="p-jb-mr1-release"/>
+  <project name="platform/frameworks/base" path="frameworks/base" revision="cbe981b4d02c376998dea9d77f6ef1526d42a97e" upstream="p-jb-mr1-release"/>
   <project name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="6f3138bbc93b7105ddb49a803c15c3f98077f533" upstream="p-jb-mr1-release"/>
   <project name="platform/frameworks/compile/linkloader" path="frameworks/compile/linkloader" revision="411f6e8443d9dfb19e867a13714db364650e0ebd" upstream="p-jb-mr1-release"/>
   <project name="platform/frameworks/compile/llvm-ndk-cc" path="frameworks/compile/llvm-ndk-cc" revision="a57b3dcfde6356263c6ee22619340f504e297262" upstream="p-jb-mr1-release"/>
@@ -250,7 +250,7 @@
   <project name="platform/hardware/ti/omap3" path="hardware/ti/omap3" revision="efbb6b2de5fa16ef72bbf02526e3c0a7a6d63a4f" upstream="p-jb-mr1-release"/>
   <project name="platform/hardware/ti/omap4xxx" path="hardware/ti/omap4xxx" revision="81e5e7229d37ae454fd2495e18717cad6c1341ec" upstream="p-jb-mr1-release"/>
   <project name="platform/hardware/ti/wlan" path="hardware/ti/wlan" revision="e01ba92ed6959ee260e4195ee2e17b840977881e" upstream="p-jb-mr1-release"/>
-  <project name="platform/hardware/ti/wpan" path="hardware/ti/wpan" revision="bd8d30758c4133cc09d04cb0ece16ea993aed568" upstream="p-jb-mr1-release"/>
+  <project name="platform/hardware/ti/wpan" path="hardware/ti/wpan" revision="57abc32575c195e5b6461777acd299f96f3b81e6" upstream="p-jb-mr1-release"/>
   <project name="platform/libcore" path="libcore" revision="91dcd8e88f791e64177adff2212942240e4d05c6" upstream="p-jb-mr1-release"/>
   <project name="platform/libnativehelper" path="libnativehelper" revision="73d3c2e3ed100f1d0ccc08a9675844bf8a0848fa" upstream="p-jb-mr1-release"/>
   <project name="platform/ndk" path="ndk" revision="6d6807c76da40a9c9a27ea235c7518557c95219c" upstream="p-jb-mr1-release"/>
