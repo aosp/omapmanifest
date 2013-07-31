@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aosp"
-           fetch=".." />
-  <default revision="refs/tags/android-4.3_r2.1"
-           remote="aosp"
+  <remote  name="omap-mirror"
+           fetch=".."
+           review="http://review.omapzoom.org/" />
+  <default revision="d-jb-mr2.0-release"
+           remote="omap-mirror"
            sync-j="4" />
 
   <project path="build" name="platform/build" groups="pdk" >
@@ -382,5 +383,17 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
+
+
+<!-- TI specific addons -->
+  <!--<project path="external/wpa_supplicant_8_ti" name="platform/external/wpa_supplicant_8_ti" groups="ti" revision="d-jb-mr1-release" />-->
+  <project path="device/ti/blaze" name="device/ti/blaze" groups="device,ti" />
+  <project path="device/ti/blaze_tablet" name="device/ti/blaze_tablet" groups="device,ti" />
+  <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" groups="ti" />
+  <project path="hardware/ti/domx" name="platform/hardware/ti/domx" groups="ti" />
+  <project path="device/ti/common-open" name="device/ti/common-open" groups="ti" />
+  <project path="external/bltsville" name="platform/external/bltsville" revision="master" groups="ti" />
+  <!--<project path="external/crda" name="platform/external/crda" groups="ti" revision="d-jb-mr1-release" />-->
+  <project path="device/ti/jacinto6evm" name="device/ti/jacinto6evm" groups="device,ti" />
 
 </manifest>
