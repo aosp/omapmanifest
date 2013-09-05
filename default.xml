@@ -393,7 +393,8 @@
   <project path="hardware/ti/domx" name="platform/hardware/ti/domx" groups="ti" />
   <project path="device/ti/common-open" name="device/ti/common-open" groups="ti" />
   <project path="external/bltsville" name="platform/external/bltsville" revision="master" groups="ti" />
-  <!--<project path="external/crda" name="platform/external/crda" groups="ti" revision="d-jb-mr1-release" />-->
+  <project path="external/crda" name="platform/external/crda" groups="ti" />
   <project path="device/ti/jacinto6evm" name="device/ti/jacinto6evm" groups="device,ti" />
+  <project path="device/ti/panda5" name="device/ti/panda5" groups="device,ti" />
 
 </manifest>
