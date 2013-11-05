@@ -403,6 +403,9 @@
   <!-- TI Apps -->
   <project path="packages/apps/MultiDisplay" name="platform/packages/apps/MultiDisplay" groups="ti" />
 
+  <!-- MTP Host support-->
+  <project path="external/libfuse" name="platform/external/libfuse" groups="ti"/>
+
   <!-- MM Trees (IPC tree points to git.ti.com server) -->
   <project path="hardware/ti/ipc" name="ipc/ipcdev" remote="git-ti-com" revision="refs/tags/3.10.01.09_eng" groups="ti" />
   <project path="hardware/ti/dce" name="repo/libdce" revision="master" groups="ti" />
