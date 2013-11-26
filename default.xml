@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aosp"
-           fetch=".." />
-  <default revision="refs/tags/android-4.4.2_r1"
-           remote="aosp"
+  <remote  name="omap-mirror"
+           fetch=".."
+           review="http://review.omapzoom.org/" />
+  <default revision="d-kitkat-mr1-release"
+           remote="omap-mirror"
            sync-j="4" />
 
   <project path="build" name="platform/build" groups="pdk" >
