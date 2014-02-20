@@ -402,6 +402,8 @@
 
   <!-- TI Apps -->
   <project path="packages/apps/MultiDisplay" name="platform/packages/apps/MultiDisplay" groups="ti" />
+  <project path="packages/apps/WfdSinkPlayer" name="platform/packages/apps/WfdSinkPlayer" groups="ti" />
+  <project path="packages/apps/WfdSinkService" name="platform/packages/apps/WfdSinkService" groups="ti" />
 
   <!-- MTP Host support-->
   <project path="external/libfuse" name="platform/external/libfuse" groups="ti"/>
