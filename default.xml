@@ -444,7 +444,7 @@
 
   <!-- MM Trees -->
   <project path="hardware/ti/ipc" name="ipc/ipcdev" remote="git-ti-com" revision="refs/tags/3.21.00.07" groups="ti" />
-  <project path="hardware/ti/dce" name="repo/libdce" revision="refs/tags/3.00.04.00" groups="ti" />
+  <project path="hardware/ti/dce" name="repo/libdce" revision="master" groups="ti" />
   <project path="external/bltsville" name="platform/external/bltsville" revision="master" groups="ti" />
 
 </manifest>
