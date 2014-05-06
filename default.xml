@@ -443,7 +443,7 @@
   <project path="external/wpa_supplicant_8_ti" name="wilink8-wlan/hostap" remote="git-ti-com" revision="refs/tags/ol_r8_a8.10_android_4.4" groups="ti" />
 
   <!-- MM Trees -->
-  <project path="hardware/ti/ipc" name="ipc/ipcdev" remote="git-ti-com" revision="refs/tags/3.21.00.07" groups="ti" />
+  <project path="hardware/ti/ipc" name="ipc/ipcdev" remote="git-ti-com" revision="refs/tags/3.22.00.04_eng" groups="ti" />
   <project path="hardware/ti/dce" name="repo/libdce" revision="master" groups="ti" />
   <project path="external/bltsville" name="platform/external/bltsville" revision="master" groups="ti" />
 
