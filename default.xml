@@ -4,6 +4,10 @@
   <remote  name="omap-mirror"
            fetch=".."
            review="http://review.omapzoom.org/" />
+
+  <remote name="git-ti-com"
+          fetch="git://git.ti.com" />
+
   <default revision="d-kitkat-mr2-release"
            remote="omap-mirror"
            sync-j="4" />
@@ -433,5 +437,19 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
+
+  <!-- TI addons -->
+  <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" groups="ti" />
+  <project path="device/ti/common-open" name="device/ti/common-open" groups="ti" />
+  <project path="device/ti/jacinto6evm" name="device/ti/jacinto6evm" groups="device,ti" />
+
+  <!-- WLAN -->
+  <project path="external/crda" name="platform/external/crda" groups="ti" />
+  <project path="external/wpa_supplicant_8_ti" name="wilink8-wlan/hostap" remote="git-ti-com" revision="refs/tags/ol_r8_a8.10_android_4.4" groups="ti" />
+
+  <!-- MM Trees -->
+  <project path="hardware/ti/ipc" name="ipc/ipcdev" remote="git-ti-com" revision="refs/tags/3.22.01.08" groups="ti" />
+  <project path="hardware/ti/dce" name="repo/libdce" revision="refs/tags/3.00.05.00" groups="ti" />
+  <project path="external/bltsville" name="platform/external/bltsville" revision="master" groups="ti" />
 
 </manifest>
