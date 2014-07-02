@@ -8,7 +8,7 @@
   <remote name="git-ti-com"
           fetch="git://git.ti.com" />
 
-  <default revision="d-kitkat-mr2-release"
+  <default revision="d-kitkat-mr2.1-release"
            remote="omap-mirror"
            sync-j="4" />
 
