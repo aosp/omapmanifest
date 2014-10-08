@@ -17,7 +17,7 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" />
-  <project path="bionic" name="platform/bionic" groups="pdk" />
+  <project path="bionic" name="platform/bionic" revision="d-kitkat-mr2.1-release-k3.14" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
@@ -295,7 +295,7 @@
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
-  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
+  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="d-kitkat-mr2.1-release-k3.14" groups="omap4" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
   <project path="libcore" name="platform/libcore" />
@@ -420,7 +420,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/core" name="platform/system/core" groups="pdk" />
+  <project path="system/core" name="platform/system/core" revision="d-kitkat-mr2.1-release-k3.14" groups="pdk" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
@@ -439,7 +439,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
   <!-- TI addons -->
-  <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" groups="ti" />
+  <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" revision="d-kitkat-mr2.1-release-k3.14" groups="ti" />
   <project path="device/ti/common-open" name="device/ti/common-open" groups="ti" />
   <project path="device/ti/jacinto6evm" name="device/ti/jacinto6evm" groups="device,ti" />
 
