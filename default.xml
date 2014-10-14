@@ -441,7 +441,7 @@
   <!-- TI addons -->
   <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" revision="d-kitkat-mr2.1-release-k3.14" groups="ti" />
   <project path="device/ti/common-open" name="device/ti/common-open" groups="ti" />
-  <project path="device/ti/jacinto6evm" name="device/ti/jacinto6evm" groups="device,ti" />
+  <project path="device/ti/jacinto6evm" name="device/ti/jacinto6evm" revision="d-kitkat-mr2.1-release-k3.14" groups="device,ti" />
 
   <!-- WLAN -->
   <project path="external/crda" name="platform/external/crda" groups="ti" />
@@ -451,5 +451,6 @@
   <project path="hardware/ti/ipc" name="ipc/ipcdev" remote="git-ti-com" revision="refs/tags/3.23.00.01" groups="ti" />
   <project path="hardware/ti/dce" name="repo/libdce" revision="refs/tags/3.00.06.00" groups="ti" />
   <project path="external/bltsville" name="platform/external/bltsville" revision="master" groups="ti" />
+  <project path="external/libdrm" name="android-sdk/libdrm.git" remote="git-ti-com" revision="master" groups="ti" />
 
 </manifest>
