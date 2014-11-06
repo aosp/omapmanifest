@@ -509,4 +509,9 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
+  <!-- TI addons -->
+  <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" groups="ti" />
+  <project path="device/ti/common-open" name="device/ti/common-open" groups="ti" />
+  <project path="device/ti/jacinto6evm" name="device/ti/jacinto6evm" groups="device,ti" />
+
 </manifest>
