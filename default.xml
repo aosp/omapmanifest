@@ -514,4 +514,6 @@
   <project path="device/ti/common-open" name="device/ti/common-open" groups="ti" />
   <project path="device/ti/jacinto6evm" name="device/ti/jacinto6evm" groups="device,ti" />
 
+  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" groups="ti" />
+
 </manifest>
