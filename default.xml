@@ -521,6 +521,7 @@
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" groups="ti" />
 
   <!-- TI MM -->
+  <project path="hardware/ti/dra7xx" name="platform/hardware/ti/dra7xx" groups="ti" />
   <project path="external/libdrm" name="android-sdk/libdrm.git" remote="git-ti-com" revision="master" groups="ti" />
 
 </manifest>
