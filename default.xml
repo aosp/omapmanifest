@@ -523,7 +523,7 @@
   <!-- TI MM -->
   <project path="hardware/ti/dra7xx" name="platform/hardware/ti/dra7xx" groups="ti" />
   <project path="external/libdrm" name="android-sdk/libdrm.git" remote="git-ti-com" revision="master" groups="ti" />
-  <project path="hardware/ti/ipc" name="ipc/ipcdev" remote="git-ti-com" revision="ipc-3.30-next" groups="ti" />
-  <project path="hardware/ti/dce" name="repo/libdce" revision="master" groups="ti" />
+  <project path="hardware/ti/ipc" name="ipc/ipcdev" remote="git-ti-com" revision="refs/tags/3.30.03.14" groups="ti" />
+  <project path="hardware/ti/dce" name="repo/libdce" revision="refs/tags/3.00.07.02" groups="ti" />
 
 </manifest>
