@@ -519,6 +519,9 @@
 
   <!-- TI Connectivity -->
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" groups="ti" />
+  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" groups="ti" />
+  <project path="external/crda" name="platform/external/crda" groups="ti" />
+  <project path="external/wpa_supplicant_8_ti" name="wilink8-wlan/hostap" remote="git-ti-com" revision="refs/tags/ol_r8.a9.14_for_android_5" groups="ti" />
 
   <!-- TI MM -->
   <project path="hardware/ti/dra7xx" name="platform/hardware/ti/dra7xx" groups="ti" />
