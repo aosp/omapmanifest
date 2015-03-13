@@ -4,6 +4,10 @@
   <remote  name="omap-mirror"
            fetch=".."
            review="http://review.omapzoom.org/" />
+
+  <remote name="git-ti-com"
+          fetch="git://git.ti.com" />
+
   <default revision="d-lollipop-mr1-release"
            remote="omap-mirror"
            sync-j="4" />
@@ -511,5 +515,22 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
+
+  <!-- TI addons -->
+  <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" groups="ti" />
+  <project path="device/ti/common-open" name="device/ti/common-open" groups="ti" />
+  <project path="device/ti/jacinto6evm" name="device/ti/jacinto6evm" groups="device,ti" />
+
+  <!-- TI Connectivity -->
+  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" groups="ti" />
+  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" groups="ti" />
+  <project path="external/crda" name="platform/external/crda" groups="ti" />
+  <project path="external/wpa_supplicant_8_ti" name="wilink8-wlan/hostap" remote="git-ti-com" revision="refs/tags/ol_r8.a9.14_for_android_5" groups="ti" />
+
+  <!-- TI MM -->
+  <project path="hardware/ti/dra7xx" name="platform/hardware/ti/dra7xx" groups="ti" />
+  <project path="external/libdrm" name="android-sdk/libdrm.git" remote="git-ti-com" revision="master" groups="ti" />
+  <project path="hardware/ti/ipc" name="ipc/ipcdev" remote="git-ti-com" revision="refs/tags/3.30.03.14" groups="ti" />
+  <project path="hardware/ti/dce" name="repo/libdce" revision="refs/tags/3.00.07.03" groups="ti" />
 
 </manifest>
