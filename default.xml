@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aosp"
-           fetch=".." />
-  <default revision="refs/tags/android-5.1.0_r1"
-           remote="aosp"
+  <remote  name="omap-mirror"
+           fetch=".."
+           review="http://review.omapzoom.org/" />
+  <default revision="d-lollipop-mr1-release"
+           remote="omap-mirror"
            sync-j="4" />
 
   <project path="build" name="platform/build" groups="pdk,tradefed" >
